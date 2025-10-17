@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 40px;
+}
+
+h1 {
+    color: #004080;
+    margin-bottom: 15px;
+}
+
+/* General table styling */
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+/* Table 1: Mixed colorful cells */
+.table1 th {
+    background-color: #333;
+    color: white;
+}
+.table1 tr:nth-child(2) td:nth-child(1) { background: #FF99CC; }
+.table1 tr:nth-child(2) td:nth-child(2) { background: #99FF99; }
+.table1 tr:nth-child(2) td:nth-child(3) { background: #66CCFF; color: white; }
+.table1 tr:nth-child(2) td:nth-child(4) { background: #FFCC66; }
+
+.table1 tr:nth-child(3) td:nth-child(1) { background: #FF6666; color: white; }
+.table1 tr:nth-child(3) td:nth-child(2) { background: #99CCFF; }
+.table1 tr:nth-child(3) td:nth-child(3) { background: #CC99FF; color: white; }
+.table1 tr:nth-child(3) td:nth-child(4) { background: #66FFB2; }
+
+.table1 tr:nth-child(4) td:nth-child(1) { background: #FFB366; }
+.table1 tr:nth-child(4) td:nth-child(2) { background: #66FFFF; }
+.table1 tr:nth-child(4) td:nth-child(3) { background: #FF99FF; color: white; }
+.table1 tr:nth-child(4) td:nth-child(4) { background: #99FFCC; }
+
+/* Table 2: each row a different blue shade */
+.table2 th {
+    background-color: #004080;
+    color: white;
+}
+.table2 tr:nth-child(2) { background-color: #b3d8ff; }
+.table2 tr:nth-child(3) { background-color: #80bfff; }
+.table2 tr:nth-child(4) { background-color: #3399ff; color: white; }
+
